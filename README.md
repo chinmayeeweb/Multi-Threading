@@ -1,7 +1,7 @@
 # Multi-Threading
 
 
-#Methodology
+# Methodology
 
 Function multiply_matrices:
 This function takes two parameters: constant_matrix, which is a constant matrix, and num_matrices, the number of random matrices to be multiplied with the constant matrix.
@@ -19,7 +19,9 @@ It plots the execution time versus the number of active threads using Matplotlib
 It creates a table using PrettyTable to display the execution times for each number of threads.
 
 
-#Results
+# Results
+
+
 The code aims to measure the impact of multithreading on the execution time of matrix multiplication. By varying the number of active threads, it observes how the execution time changes.
 However, there's a flaw in the way the threads are created and executed. The script starts multiple threads but doesn't utilize them effectively. Each thread performs the matrix multiplication independently without coordinating with others or sharing the workload.
 
