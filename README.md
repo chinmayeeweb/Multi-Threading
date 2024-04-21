@@ -2,6 +2,8 @@
 
 
 #Methodology
+
+
 Divide the Matrices: Break down the input matrices into smaller submatrices. The number of submatrices and their sizes depend on the number of threads available and the characteristics of the matrices.
 Thread Creation: Create multiple threads, with each thread responsible for multiplying a specific pair of submatrices. The number of threads should be determined based on factors like the number of CPU cores available and the size of the matrices.
 Thread Execution: Each thread performs the multiplication of its assigned submatrices. This involves iterating over the rows and columns of the submatrices and computing the dot product of corresponding rows and columns to populate the resulting submatrix.
