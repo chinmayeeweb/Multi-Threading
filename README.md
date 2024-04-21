@@ -21,6 +21,8 @@ Thread Termination: After the matrix multiplication is complete, terminate or jo
 
 <img width="428" alt="image" src="https://github.com/chinmayeeweb/Multi-Threading/assets/95276351/cfaa5e9b-390b-4a83-afb9-3179863dfdc3">
 
+<img width="254" alt="image" src="https://github.com/chinmayeeweb/Multi-Threading/assets/95276351/9c878db1-aaf8-428c-8785-b361ab55bf76">
+
 
 
 
